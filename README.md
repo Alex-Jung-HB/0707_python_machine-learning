@@ -37,15 +37,15 @@ o 비지도학습
 <기계학습 시에 필요한 라이브러리 호출>  
 1. 기본 호출 예시  
 !pip install opencv-python tensorflow scikit-learn matplotlib pillow    
-import cv2
-import numpy as np
-import tensorflow as tf
-from tensorflow.keras import layers, models
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, classification_report
-import matplotlib.pyplot as plt
-import os from PIL import Image
+import cv2  
+import numpy as np  
+import tensorflow as tf  
+from tensorflow.keras import layers, models  
+from sklearn.model_selection import train_test_split  
+from sklearn.ensemble import RandomForestClassifier  
+from sklearn.metrics import accuracy_score, classification_report  
+import matplotlib.pyplot as plt  
+import os from PIL import Image  
 
 2. 라이브러리 요약
 - 아래의 라이브러리들을 조합하면 컴퓨터 비전과 머신러닝 프로젝트의 전체 파이프라인을 구축할 수 있습니다.
