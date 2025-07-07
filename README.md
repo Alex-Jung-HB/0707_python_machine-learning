@@ -51,26 +51,26 @@ import os from PIL import Image
 - 아래의 라이브러리들을 조합하면 컴퓨터 비전과 머신러닝 프로젝트의 전체 파이프라인을 구축할 수 있습니다.
   
 A. OpenCV-Python
-1) 개요
-용도: 컴퓨터 비전 및 이미지 처리
-주요 기능: 이미지/비디오 읽기/쓰기, 필터링, 객체 검출, 얼굴 인식, 에지 검출
-특징: C++로 작성되어 매우 빠른 성능, 실시간 처리 가능
-예시: cv2.imread(), cv2.Canny(), cv2.findContours()
-2) 라이브러리 구성
-o 핵심 모듈
-cv2.core: 기본 데이터 구조와 함수 (배열, 매트릭스 연산)
-cv2.imgproc: 이미지 처리 함수들
-cv2.imgcodecs: 이미지 파일 입출력
-cv2.videoio: 비디오 파일 및 카메라 입출력
-cv2.highgui: 창 관리, 이벤트 처리
-o 고급 모듈
-cv2.feature2d: 특징점 검출 및 기술자
-cv2.objdetect: 객체 검출 (HOG, Haar Cascade)
-cv2.calib3d: 카메라 캘리브레이션, 3D 재구성
-cv2.ml: 머신러닝 알고리즘
-cv2.photo: 사진 처리 (노이즈 제거, HDR)
-3) 주요 용어  
-o 기본 용어  
+1) 개요  
+용도: 컴퓨터 비전 및 이미지 처리  
+주요 기능: 이미지/비디오 읽기/쓰기, 필터링, 객체 검출, 얼굴 인식, 에지 검출  
+특징: C++로 작성되어 매우 빠른 성능, 실시간 처리 가능  
+예시: cv2.imread(), cv2.Canny(), cv2.findContours()  
+2) 라이브러리 구성  
+o 핵심 모듈  
+cv2.core: 기본 데이터 구조와 함수 (배열, 매트릭스 연산)  
+cv2.imgproc: 이미지 처리 함수들  
+cv2.imgcodecs: 이미지 파일 입출력  
+cv2.videoio: 비디오 파일 및 카메라 입출력  
+cv2.highgui: 창 관리, 이벤트 처리  
+o 고급 모듈  
+cv2.feature2d: 특징점 검출 및 기술자  
+cv2.objdetect: 객체 검출 (HOG, Haar Cascade)  
+cv2.calib3d: 카메라 캘리브레이션, 3D 재구성  
+cv2.ml: 머신러닝 알고리즘  
+cv2.photo: 사진 처리 (노이즈 제거, HDR)  
+3) 주요 용어    
+o 기본 용어    
 Mat: OpenCV의 기본 이미지/행렬 데이터 구조  
 Pixel: 이미지의 최소 단위 (화소)  
 Channel: 색상 채널 (Gray: 1채널, BGR: 3채널)  
